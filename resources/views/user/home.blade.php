@@ -49,59 +49,196 @@
         </div>
     </div>
 
-    {{-- ISTILAH POPULER --}}
-    <section class="max-w-7xl mx-auto px-10 py-14 mt-12 bg-white rounded-lg shadow-md">
-        <h2 class="text-2xl font-bold mb-6">Istilah Populer dalam Dunia Frekuensi</h2>
-        <ul class="grid grid-cols-2 md:grid-cols-3 gap-4 text-indigo-800">
-            <li>📡 Stasiun Radio</li>
-            <li>⚡ Interferensi</li>
-            <li>📜 Lisensi Frekuensi</li>
-            <li>📶 Spektrum Frekuensi</li>
-            <li>📏 Bandwidth</li>
-            <li>🎚 Modulasi</li>
-        </ul>
-        <div class="mt-6">
-            <a href="{{ route('kamus') }}" class="text-indigo-700 hover:underline font-semibold">Selengkapnya ></a>
-        </div>
-    </section>
+    <section style="margin-top: 60px; text-align: center;">
+    <h2 style="font-weight: bold; font-size: 2rem;">Mengenal Spektrum Frekuensi Radio</h2>
+    <p style="font-size: 1rem; color: #555; max-width: 700px; margin: 10px auto 40px;">
+      Menelusuri peran penting spektrum frekuensi dalam mendukung teknologi komunikasi di Indonesia
+    </p>
 
-    {{-- ARTIKEL INFO FREKUENSI --}}
-    <section class="max-w-7xl mx-auto px-10 py-14 mt-12 bg-white rounded-lg shadow-md">
-        <h2 class="text-2xl font-bold mb-6">Artikel Info Frekuensi</h2>
-        <ul class="space-y-3 text-indigo-800">
-            <li>🔹 Apa Itu Spektrum Frekuensi Radio?</li>
-            <li>🔹 Mengenal Pita Frekuensi dan Fungsinya</li>
-            <li>🔹 Kenapa Frekuensi Harus Diatur?</li>
-            <li>🔹 Bahaya Penggunaan Frekuensi Tanpa Izin</li>
-        </ul>
-        <div class="mt-6">
-            <a href="{{ route('info-frekuensi') }}" class="text-indigo-700 hover:underline font-semibold">Selengkapnya ></a>
-        </div>
-    </section>
-
-    {{-- MATERI TERBARU --}}
-    <section class="max-w-7xl mx-auto px-10 py-14 mt-12 bg-white rounded-lg shadow-md">
-        <h2 class="text-2xl font-bold mb-6">Materi Pembelajaran Terbaru</h2>
-        <ul class="space-y-3 text-indigo-800">
-            <li>📘 Pengukuran Frekuensi</li>
-            <li>📘 Monitoring Spektrum</li>
-            <li>📘 Peran Spektrum dalam Teknologi Modern</li>
-            <li>📘 Teknologi Nirkabel & Perkembangannya</li>
-            <li>📘 Jenis Sistem Komunikasi</li>
-            <li>📘 Regulasi Frekuensi</li>
-        </ul>
-        <div class="mt-6">
-            <a href="{{ route('materi') }}" class="text-indigo-700 hover:underline font-semibold">Lihat Semua ></a>
-        </div>
-    </section>
-
-    {{-- TENTANG RISFRI --}}
-    <section class="max-w-7xl mx-auto px-10 py-14 mt-12 bg-white rounded-lg shadow-md">
-        <h2 class="text-3xl font-bold mb-6">Tentang RISFRI</h2>
-        <p class="text-lg leading-relaxed max-w-4xl mx-auto text-gray-700">
-            RISFRI adalah ruang informasi yang menyediakan data dan materi lengkap mengenai spektrum frekuensi radio di Indonesia.
-            Kami berkomitmen untuk menyediakan sumber informasi yang akurat dan mudah diakses oleh publik serta para profesional
-            di bidang komunikasi radio.
+    <div style="display: flex; justify-content: center; gap: 40px; align-items: center; max-width: 900px; margin: 0 auto;">
+      <div style="flex: 1; text-align: left;">
+        <h4>Sejarah & Peran Strategis</h4>
+        <p style="color: #666; font-size: 0.9rem; line-height: 1.5;">
+          Spektrum frekuensi radio merupakan sumber daya alam terbatas yang menjadi fondasi utama dalam berbagai sistem komunikasi nirkabel, mulai dari siaran radio, televisi, hingga jaringan seluler dan satelit.
+          <br><br>
+          Sejak awal abad ke-20, penggunaan spektrum frekuensi telah berkembang pesat seiring dengan kemajuan teknologi komunikasi global. Di Indonesia, pengelolaan spektrum dilakukan secara strategis untuk memastikan efisiensi, keadilan, dan keberlanjutan penggunaan di seluruh sektor.
+          <br><br>
+          Kini, spektrum frekuensi radio memegang peranan penting dalam transformasi digital nasional, mendukung konektivitas masyarakat, pertumbuhan ekonomi berbasis digital, serta menjaga ketahanan nasional.
         </p>
+      </div>
+      <div style="flex: 1;">
+        <img src="/images/gambar1.png" alt="Spektrum Frekuensi Radio" style="max-width: 100%; height: auto;">
+      </div>
+    </div>
+  </section>
+
+  <section style="background-color: #003366; color: white; padding: 40px 20px; margin-top: 60px; border-radius: 8px;">
+    <div style="max-width: 1200px; margin: 0 auto;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px;">
+        <h2 style="font-weight: bold; font-size: 1.8rem; margin: 0;">Materi Pembelajaran Terbaru</h2>
+        <a href="#" style="color: white; font-weight: bold; text-decoration: none; font-size: 0.9rem;">Lihat Semua ></a>
+      </div>
+      <p style="font-size: 1rem; max-width: 600px; margin-bottom: 30px;">
+        Akses materi pembelajaran seputar spektrum frekuensi radio secara mandiri dan fleksibel.
+      </p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
+        <div style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.2); width: 220px; height: 211px; overflow: hidden;">
+          <div style="background: #004080; height: 40%; display: flex; justify-content: center; align-items: center;">
+            <img src="/images/gambar2.png" alt="Dasar-Dasar Spektrum Frekuensi Radio" style="width: 60px;">
+          </div>
+          <div style="background: white; height: 60%; padding: 10px 15px; text-align: left;">
+            <h4 style="font-weight: bold; font-size: 1rem; margin: 0 0 5px 0; color: #000;">Dasar-Dasar Spektrum Frekuensi Radio</h4>
+            <p style="font-size: 0.85rem; color: #333; margin: 0;">Mengenal konsep dasar, manfaat, dan peran penting spektrum dalam komunikasi modern.</p>
+          </div>
+        </div>
+        <div style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.2); width: 220px; height: 211px; overflow: hidden;">
+          <div style="background: #004080; height: 40%; display: flex; justify-content: center; align-items: center;">
+            <img src="/images/gambar2.png" alt="Pengelolaan Frekuensi: Regulasi & Tata Kelola" style="width: 60px;">
+          </div>
+          <div style="background: white; height: 60%; padding: 10px 15px; text-align: left;">
+            <h4 style="font-weight: bold; font-size: 1rem; margin: 0 0 5px 0; color: #000;">Pengelolaan Frekuensi: Regulasi & Tata Kelola</h4>
+            <p style="font-size: 0.85rem; color: #333; margin: 0;">Pahami aturan, izin, dan kebijakan pengelolaan spektrum di Indonesia.</p>
+          </div>
+        </div>
+        <div style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.2); width: 220px; height: 211px; overflow: hidden;">
+          <div style="background: #004080; height: 40%; display: flex; justify-content: center; align-items: center;">
+            <img src="/images/gambar2.png" alt="Monitoring Spektrum Frekuensi Radio" style="width: 60px;">
+          </div>
+          <div style="background: white; height: 60%; padding: 10px 15px; text-align: left;">
+            <h4 style="font-weight: bold; font-size: 1rem; margin: 0 0 5px 0; color: #000;">Monitoring Spektrum Frekuensi Radio</h4>
+            <p style="font-size: 0.85rem; color: #333; margin: 0;">Teknik, perangkat, dan proses pemantauan spektrum secara nasional.</p>
+          </div>
+        </div>
+        <div style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.2); width: 220px; height: 211px; overflow: hidden;">
+          <div style="background: #004080; height: 40%; display: flex; justify-content: center; align-items: center;">
+            <img src="/images/gambar2.png" alt="Teknologi Komunikasi Nirkabel dan Pita Frekuensi" style="width: 60px;">
+          </div>
+          <div style="background: white; height: 60%; padding: 10px 15px; text-align: left;">
+            <h4 style="font-weight: bold; font-size: 1rem; margin: 0 0 5px 0; color: #000;">Teknologi Komunikasi Nirkabel dan Pita Frekuensi</h4>
+            <p style="font-size: 0.85rem; color: #333; margin: 0;">Kaitan antara teknologi komunikasi spektrum 4G/5G dengan pita frekuensi radio.</p>
+          </div>
+        </div>
+        <div style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.2); width: 220px; height: 211px; overflow: hidden;">
+          <div style="background: #004080; height: 40%; display: flex; justify-content: center; align-items: center;">
+            <img src="/images/gambar2.png" alt="Inspeksi dan Penanganan Gangguan Frekuensi" style="width: 60px;">
+          </div>
+          <div style="background: white; height: 60%; padding: 10px 15px; text-align: left;">
+            <h4 style="font-weight: bold; font-size: 1rem; margin: 0 0 5px 0; color: #000;">Inspeksi dan Penanganan Gangguan Frekuensi</h4>
+            <p style="font-size: 0.85rem; color: #333; margin: 0;">Studi kasus dan teknik menangani interferensi atau gangguan spektrum.</p>
+          </div>
+        </div>
+        <div style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.2); width: 220px; height: 211px; overflow: hidden;">
+          <div style="background: #004080; height: 40%; display: flex; justify-content: center; align-items: center;">
+            <img src="/images/gambar2.png" alt="Jenis Sistem Komunikasi Radio" style="width: 60px;">
+          </div>
+          <div style="background: white; height: 60%; padding: 10px 15px; text-align: left;">
+            <h4 style="font-weight: bold; font-size: 1rem; margin: 0 0 5px 0; color: #000;">Jenis Sistem Komunikasi Radio</h4>
+            <p style="font-size: 0.85rem; color: #333; margin: 0;">Menjelaskan berbagai jenis sistem komunikasi yang memanfaatkan spektrum radio, maritim, penerbangan, dan darat.</p>
+          </div>
+        </div>
+        <div style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.2); width: 220px; height: 211px; overflow: hidden;">
+          <div style="background: #004080; height: 40%; display: flex; justify-content: center; align-items: center;">
+            <img src="/images/gambar2.png" alt="Pengukuran dan Parameter Teknis Spektrum" style="width: 60px;">
+          </div>
+          <div style="background: white; height: 60%; padding: 10px 15px; text-align: left;">
+            <h4 style="font-weight: bold; font-size: 1rem; margin: 0 0 5px 0; color: #000;">Pengukuran dan Parameter Teknis Spektrum</h4>
+            <p style="font-size: 0.85rem; color: #333; margin: 0;">Materi teknis yang mendalam, pengukuran, spektrum bandwidth, parameter lainnya.</p>
+          </div>
+        </div>
+        <div style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.2); width: 220px; height: 211px; overflow: hidden;">
+          <div style="background: #004080; height: 40%; display: flex; justify-content: center; align-items: center;">
+            <img src="/images/gambar2.png" alt="Peran Spektrum dalam Ekosistem Digital Nasional" style="width: 60px;">
+          </div>
+          <div style="background: white; height: 60%; padding: 10px 15px; text-align: left;">
+            <h4 style="font-weight: bold; font-size: 1rem; margin: 0 0 5px 0; color: #000;">Peran Spektrum dalam Ekosistem Digital Nasional</h4>
+            <p style="font-size: 0.85rem; color: #333; margin: 0;">Menjelaskan kontribusi spektrum terhadap transformasi digital, ekonomi berbasis digital, dan ketahanan nasional.</p>
+          </div>
+        </div>
+        <div style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.2); width: 220px; height: 211px; overflow: hidden;">
+          <div style="background: #004080; height: 40%; display: flex; justify-content: center; align-items: center;">
+            <img src="/images/gambar2.png" alt="Regulasi Spektrum Frekuensi" style="width: 60px;">
+          </div>
+          <div style="background: white; height: 60%; padding: 10px 15px; text-align: left;">
+            <h4 style="font-weight: bold; font-size: 1rem; margin: 0 0 5px 0; color: #000;">Regulasi Spektrum Frekuensi</h4>
+            <p style="font-size: 0.85rem; color: #333; margin: 0;">Informasi tentang regulasi dan kebijakan spektrum frekuensi di Indonesia.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="margin-top: 60px; max-width: 1100px; margin-left: auto; margin-right: auto; padding-bottom: 60px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+      <h2 style="font-weight: bold; font-size: 1.5rem; color: #333;">Istilah Populer dalam Dunia Frekuensi</h2>
+      <a href="/kamus" style="color: #003366; font-weight: bold; text-decoration: none;">Selengkapnya ></a>
+    </div>
+    <p style="color: #555; font-size: 1rem; margin-bottom: 20px;">
+      Hi Sobat Frekuensi, berikut ini beberapa istilah populer yang sering digunakan dalam dunia spektrum frekuensi radio
+    </p>
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+      <div style="background: white; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-radius: 8px; padding: 15px;">
+        <h4 style="font-weight: bold; margin-bottom: 8px;">Spektrum Frekuensi</h4>
+        <p style="margin: 0; font-size: 0.9rem; color: #444;">Istilah umum untuk pita frekuensi yang digunakan dalam komunikasi nirkabel.</p>
+      </div>
+      <div style="background: white; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-radius: 8px; padding: 15px;">
+        <h4 style="font-weight: bold; margin-bottom: 8px;">Bandwidth</h4>
+        <p style="margin: 0; font-size: 0.9rem; color: #444;">Lebar pita frekuensi yang digunakan oleh sinyal untuk mentransmisikan data.</p>
+      </div>
+      <div style="background: white; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-radius: 8px; padding: 15px;">
+        <h4 style="font-weight: bold; margin-bottom: 8px;">Modulasi</h4>
+        <p style="margin: 0; font-size: 0.9rem; color: #444;">Teknik untuk mengubah sinyal pembawa agar dapat mengirimkan informasi.</p>
+      </div>
+      <div style="background: white; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-radius: 8px; padding: 15px;">
+        <h4 style="font-weight: bold; margin-bottom: 8px;">Stasiun Radio</h4>
+        <p style="margin: 0; font-size: 0.9rem; color: #444;">Perangkat pemancar atau penerima yang menggunakan frekuensi tertentu.</p>
+      </div>
+      <div style="background: white; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-radius: 8px; padding: 15px;">
+        <h4 style="font-weight: bold; margin-bottom: 8px;">Interferensi</h4>
+        <p style="margin: 0; font-size: 0.9rem; color: #444;">Gangguan sinyal akibat penggunaan frekuensi yang tumpang tindih.</p>
+      </div>
+      <div style="background: white; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-radius: 8px; padding: 15px;">
+        <h4 style="font-weight: bold; margin-bottom: 8px;">Lisensi Frekuensi</h4>
+        <p style="margin: 0; font-size: 0.9rem; color: #444;">Izin resmi dari pemerintah untuk menggunakan spektrum tertentu.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="margin-top: 60px; max-width: 1200px; margin-left: auto; margin-right: auto;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+      <h2 style="font-weight: bold; font-size: 1.5rem; color: #333;">Info Frekuensi</h2>
+      <a href="/materi" style="color: #003366; font-weight: bold; text-decoration: none;">Selengkapnya ></a>
+    </div>
+    <p style="color: #555; font-size: 1rem; margin-bottom: 20px;">
+      informasi singkat tentang frekuensi dalam bentuk artikel
+    </p>
+    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;">
+      <div style="background: white; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.2); overflow: hidden;">
+        <img src="/images/gambar1.png" alt="Apa Itu Spektrum Frekuensi Radio?" style="width: 100%; height: 120px; object-fit: cover;">
+        <div style="padding: 10px 15px;">
+          <p style="font-size: 0.75rem; color: #004080; margin: 0 0 5px 0;">Artikel</p>
+          <h4 style="font-weight: bold; font-size: 1rem; margin: 0;">Apa Itu Spektrum Frekuensi Radio?</h4>
+        </div>
+      </div>
+      <div style="background: white; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.2); overflow: hidden;">
+        <img src="/images/gambar2.png" alt="Kenapa Frekuensi Harus Diatur?" style="width: 100%; height: 120px; object-fit: cover;">
+        <div style="padding: 10px 15px;">
+          <p style="font-size: 0.75rem; color: #004080; margin: 0 0 5px 0;">Artikel</p>
+          <h4 style="font-weight: bold; font-size: 1rem; margin: 0;">Kenapa Frekuensi Harus Diatur?</h4>
+        </div>
+      </div>
+      <div style="background: white; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.2); overflow: hidden;">
+        <img src="/images/tabel.png" alt="Mengenal Pita Frekuensi dan Fungsinya" style="width: 100%; height: 120px; object-fit: cover;">
+        <div style="padding: 10px 15px;">
+          <p style="font-size: 0.75rem; color: #004080; margin: 0 0 5px 0;">Artikel</p>
+          <h4 style="font-weight: bold; font-size: 1rem; margin: 0;">Mengenal Pita Frekuensi dan Fungsinya</h4>
+        </div>
+      </div>
+      <div style="background: white; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.2); overflow: hidden;">
+        <img src="/images/gambar2.png" alt="Bahaya Penggunaan Frekuensi Tanpa Izin" style="width: 100%; height: 120px; object-fit: cover;">
+        <div style="padding: 10px 15px;">
+          <p style="font-size: 0.75rem; color: #004080; margin: 0 0 5px 0;">Artikel</p>
+          <h4 style="font-weight: bold; font-size: 1rem; margin: 0;">Bahaya Penggunaan Frekuensi Tanpa Izin</h4>
+        </div>
+      </div>
     </section>
 @endsection

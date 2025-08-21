@@ -15,8 +15,6 @@
                 <img src="{{ asset('images/komdigi.png') }}" alt="Logo RISFRI" class="h-20 w-auto" />
                 <img src="{{ asset('images/risfri.png') }}" alt="Logo RISFRI" class="h-10 w-auto" />
             </a>
-
-            <a href="{{ route('home') }}" class="text-white hover:text-black">Home</a>
             <a href="{{ route('info-frekuensi') }}" class="text-white hover:text-black">Info Frekuensi</a>
             <a href="{{ route('kamus') }}" class="text-white hover:text-black">Kamus</a>
             <a href="{{ route('tabel-spektrum') }}" class="text-white hover:text-black">Tabel Spektrum</a>
